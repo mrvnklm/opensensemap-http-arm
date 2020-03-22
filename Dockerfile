@@ -10,6 +10,4 @@ RUN npm ci
 
 USER nobody
 
-VOLUME /config.json
-
 CMD ["node", "index.js"]
