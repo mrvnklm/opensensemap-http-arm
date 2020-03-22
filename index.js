@@ -28,7 +28,7 @@ function run() {
           value = sens.path.split('.').reduce((p, c) => p[c], JSON.parse(body))
         }
         if (debug) console.log(`Sensor: ${sens.path} - Value: ${value})`)
-        if (value) {
+        if (typeof value == 'number') {
           request({
             url: `https://api.opensensemap.org/boxes/${config.senseboxId}/${sens.id}`,
             method: "POST",
