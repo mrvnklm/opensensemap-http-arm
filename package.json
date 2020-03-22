@@ -1,5 +1,5 @@
 {
-  "name": "opensensemap-http",
+  "name": "opensensemap-http-arm",
   "version": "1.0.0",
   "description": "Small node.js script to publish local http sensor data to opensensemap.org (from e.g. tasmota)",
   "main": "index.js",
