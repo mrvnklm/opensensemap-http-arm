@@ -1,3 +1,4 @@
+require('console-stamp')(console, 'yyyy-mm-dd HH:MM:ss');
 const fs = require('fs');
 const process = require('process');
 const request = require('request');
