@@ -2,7 +2,7 @@ const fs = require('fs');
 const process = require('process');
 const request = require('request');
 
-const config = JSON.parse(fs.readFileSync('../config.json'));
+const config = JSON.parse(fs.readFileSync('config.json'));
 
 const interval = config.interval || 60
 const debug = config.debug || false
